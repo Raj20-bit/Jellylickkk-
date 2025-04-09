@@ -2,37 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JellyLickkk</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffaf9;
+    }
+    header {
+      background: #ffbdbd;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .contact {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    .product {
+      background: #fff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product h2 {
+      font-size: 1.5em;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    .order-btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .order-btn:hover {
+      background-color: #1da851;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to JellyLickkk</h1>
-    <p>Contact: <a href="https://wa.me/917317626043" target="_blank">WhatsApp 7317626043</a></p>
-  </header>
 
-  <section class="product">
-    <h2>T-Shirt - ₹509 + ₹20 Shipping</h2>
-    <img src="images/tshirt.jpg" alt="T-Shirt" /> href="https://wa.me/917317626043?text=I%20want%20to%20order%20a%20T-shirt%20from%20JellyLickkk" class="order-btn">Order on WhatsApp</a>
-  </section>
+<header>
+  <h1>Welcome to JellyLickkk</h1>
+  <div class="contact">
+    Contact: <a href="https://wa.me/917317626043" target="_blank">WhatsApp 7317626043</a>
+  </div>
+</header>
 
-  <section class="product">
-    <h2>White Hoodie - ₹799</h2>
-    <img src="white-hoodie.jpg" alt="White Hoodie" />
-    <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20the%20White%20Hoodie" class="order-btn">Order on WhatsApp</a>
-  </section>
+<!-- T-Shirt -->
+<div class="product">
+  <h2>T-Shirt – ₹509 + ₹20 Shipping</h2>
+  <img src="tshirt.jpg" alt="T-Shirt">
+  <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20a%20T-shirt%20from%20JellyLickkk" class="order-btn" target="_blank">Order on WhatsApp</a>
+</div>
 
-  <section class="product">
-    <h2>Black Hoodie - ₹799</h2>
-    <img src="black-hoodie.jpg" alt="Black Hoodie" />
-    <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20the%20Black%20Hoodie" class="order-btn">Order on WhatsApp</a>
-  </section>
+<!-- White Hoodie -->
+<div class="product">
+  <h2>White Hoodie – ₹799</h2>
+  <img src="white-hoodie.jpg" alt="White Hoodie">
+  <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20a%20White%20Hoodie%20from%20JellyLickkk" class="order-btn" target="_blank">Order on WhatsApp</a>
+</div>
 
-  <section class="product">
-    <h2>Cap - ₹299</h2>
-    <img src="cap.jpg" alt="Cap" />
-    <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20a%20Cap" class="order-btn">Order on WhatsApp</a>
-  </section>
+<!-- Black Hoodie -->
+<div class="product">
+  <h2>Black Hoodie – ₹799</h2>
+  <img src="black-hoodie.jpg" alt="Black Hoodie">
+  <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20a%20Black%20Hoodie%20from%20JellyLickkk" class="order-btn" target="_blank">Order on WhatsApp</a>
+</div>
+
+<!-- Template for adding more products -->
+<!-- Just copy this block and change details/image -->
+<div class="product">
+  <h2>New Product Name – ₹Price</h2>
+  <img src="new-product.jpg" alt="New Product">
+  <a href="https://wa.me/917317626043?text=I%20want%20to%20order%20New%20Product%20from%20JellyLickkk" class="order-btn" target="_blank">Order on WhatsApp</a>
+</div>
+
 </body>
 </html>
