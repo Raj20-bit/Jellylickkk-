@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff0f0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #ff6666, white);
+  padding: 20px;
+}
+
+.product img {
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-top: 30px;
+}
